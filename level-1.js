@@ -26,7 +26,7 @@ var person = {
  
  var numbers = ["one","two","three","four","five"];
  
- console.loh(numbers.length);
+ console.log(numbers.length);
  
  
  
@@ -40,6 +40,58 @@ for (var i=15; i < 26; i++){
 //Question 6
 
 
+ if (i === 20){
+   console.log([i].length);
+ }
+
+
+//Question 7
+
+var objects = [
+  {
+    name: "Peter",
+    age: 19,
+    male: true
+  }
+  {
+    name: "Judy",
+    age: 20,
+    male: false
+  }
+  ];
+
+for(var i=o; i < objects.length; i++){
+  console.log(objects[i].age)
+  console.log(objects[i].male)
+};
  
- 
-   
+
+//Question 8
+
+function whatIDontLike(facts){
+  console.log("I don`t like" + facts);
+}
+
+whatIdontLike("tomatoes");
+
+
+//Question 9
+
+function subtractionOfNumbers(number1,number2){
+  var sum = number2 - number1;
+  console.log(sum);
+}
+subtractionOfNumbers(11, 17);
+
+
+//Question 10
+
+var oneArray = [];
+
+function theArray(string){
+  oneArray.push(string);
+}
+
+theArray("test");
+
+console.log(theArray);
